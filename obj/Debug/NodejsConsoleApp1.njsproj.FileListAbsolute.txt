@@ -1,0 +1,6 @@
+C:\Users\Karolis Urbaitis\source\repos\NodejsConsoleApp1\NodejsConsoleApp1\obj\Debug\NodejsConsoleApp1.njsproj.AssemblyReference.cache
+C:\Users\Karolis Urbaitis\source\repos\NodejsConsoleApp1\NodejsConsoleApp1\obj\Debug\NodejsConsoleApp1.njsproj.CoreCompileInputs.cache
+C:\Users\Karolis Urbaitis\source\repos\NodejsConsoleApp1\NodejsConsoleApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Karolis Urbaitis\Documents\Programavimas\VisualStudio\Pamainos pasirinkimo sistema NodeJS (Tik login)\NodejsConsoleApp1\obj\Debug\NodejsConsoleApp1.njsproj.AssemblyReference.cache
+C:\Users\Karolis Urbaitis\Documents\Programavimas\VisualStudio\Pamainos pasirinkimo sistema NodeJS (Tik login)\NodejsConsoleApp1\obj\Debug\NodejsConsoleApp1.njsproj.CoreCompileInputs.cache
+C:\Users\Karolis Urbaitis\Documents\Programavimas\VisualStudio\Pamainos pasirinkimo sistema NodeJS (Tik login)\NodejsConsoleApp1\bin\Microsoft.NodejsTools.WebRole.dll

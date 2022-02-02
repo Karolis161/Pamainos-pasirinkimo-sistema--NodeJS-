@@ -1,0 +1,23 @@
+<h1> Prisijungimas </h1>
+<%- include ('./partials/messages') %>
+	<form action="/users/login" method="POST">
+		<div>
+			<label for="email">El. pastas</label>
+			<input
+			type="email"
+			name="email"
+			placeholder="Iveskite el. pašta"
+/>
+		</div>
+		<div>
+			<label for="password">Slaptazodis</label>
+			<input
+			  type="password"
+			  name="password"
+			  placeholder="Iveskite slaptazodi"
+    />
+
+		</div>
+		<button type="submit" class="btn btn-primary btn-block">Prisijungti</button>
+
+	</form>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Available Dates</title>
+</head>
+<body>
+    <div class="table-data">
+<h2>Available dates</h2>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Dates</th>
+        </tr>
+        
+        <%
+        if(dateData.length!=0){
+        var i=1;
+        dateData.forEach(function(data){
+        %>
+        <tr>
+            <td><%=i; %></td>
+            <td><%=data.date %></td>
+            <td><a href="/date/delete/<%=data.date%>">Choose</a></td>
+        </tr>
+        <%  i++; }) %>
+        <% } else{ %>
+            <tr>
+                <td colspan="7">No Data Found</td>
+            </tr>
+        <% } %>
+    </table>
+    </div>
+</body>
+</html>
+<a href="/users/logout">Atsijungti</a>

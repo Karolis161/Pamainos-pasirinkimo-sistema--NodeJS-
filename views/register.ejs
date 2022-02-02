@@ -1,0 +1,46 @@
+<h1>Registracija</h1>
+<%- include=('./partials/messages') %>
+	<form action="/users/register" method="POST">
+		<div>
+			<label for="name">Vardas</label>
+			<input
+			  type="name"
+			  name="name"
+			  placeholder="Iveskite varda"
+			  value=""<%= typeof name != 'undefined' ? name : '' %>"
+			/>
+		</div>
+		<div>
+			<label for="email">El. pastas</label>
+			<input
+			  type="email"
+			  name="email"
+			  placeholder="Iveskite el. pasta"
+			  value=""<%= typeof email != 'undefined' ? email : '' %>"
+			/>
+		</div>
+		<div >
+			<label for="password">Slaptazodis</label>
+			<input
+			  type="password"
+			  name="password"
+			  placeholder="Iveskite slaptazodi"
+			  value=""<%= typeof password != 'undefined' ? password : '' %>"
+			/>
+		</div>
+		<div >
+			<label for="password2">Slaptazodzio patvirtinimas</label>
+			<input
+			  type="password"
+			  name="password2"
+			  placeholder="Patvirtinkite slaptazodi"
+			  value=""<%= typeof password2 != 'undefined' ? password2 : '' %>"
+			/>
+		</div>
+		<button type="submit" class="btn btn-primary btn-block">
+			Registruotis
+		</button>
+	</form>
+	<p >
+		Ar jau turite paskyra? <a href="/users/login">Prisijungti</a>
+	</p>
