@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 
 var formSchema = new mongoose.Schema({
-    date:Date
+  date: Date,
 });
 
 module.exports = mongoose.model("Form", formSchema);
